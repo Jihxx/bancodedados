@@ -1,0 +1,16 @@
+-- create a table
+CREATE TABLE quimica (
+  materia VARCHAR (),
+  estrutura VARCHAR() NOT NULL,
+  propriedade CHAR() NOT NULL
+  reacao VARCHAR () NOT NULL
+);
+-- insert some values
+INSERT INTO quimica VALUES ('');
+INSERT INTO quimica VALUES ('');
+INSERT INTO quimica VALUES ('');
+INSERT INTO quimica VALUES ('');
+INSERT INTO quimica VALUES ('');
+INSERT INTO quimica VALUES ('');
+-- fetch some values
+SELECT * FROM quimica WHERE materia = '';
