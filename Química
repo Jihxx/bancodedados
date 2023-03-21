@@ -1,9 +1,9 @@
 -- create a table
 CREATE TABLE quimica (
-  nome VARCHAR (10),
-  formula VARCHAR(5) NOT NULL,
-  propriedade VARCHAR(20) NOT NULL
-  reacao VARCHAR (30) NOT NULL
+  nome VARCHAR (20),
+  formula VARCHAR(10) NOT NULL,
+  propriedade VARCHAR(255) NOT NULL,
+  reacao VARCHAR (255) NOT NULL
 );
 -- insert some values
 INSERT INTO quimica VALUES ('agua','H2O','possui grande capacidade de dissolver diversas substancias', 'hidrolise');
@@ -13,4 +13,4 @@ INSERT INTO quimica VALUES ('areia','SiO2','sao rochas permeaveis','fotocataliti
 INSERT INTO quimica VALUES ('oxigenio','O2','gasoso, incolor, liquido e solido','culmina com a producao de luz e calor');
 INSERT INTO quimica VALUES ('acucar','C12H24O12','triboluminescencia','hidrolise');
 -- fetch some values
-SELECT * FROM quimica WHERE nome = '';
+SELECT * FROM quimica WHERE nome = 'agua';
