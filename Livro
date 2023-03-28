@@ -1,0 +1,17 @@
+-- create a table
+CREATE TABLE livro (
+  nome VARCHAR(255) NOT NULL,
+  autor VARCHAR(255) NOT NULL,
+  genero VARCHAR (255) NOT NULL,
+  numero de paginas (255) NOT NULL,
+  ano int (4) NOT NULL,
+  idioma VARCHAR (50) NOT NULL
+);
+-- insert some values
+INSERT INTO livro VALUES ('Imperfeitos', 'Christina Lauren', 'Romance','252','2022','Ingles americano');
+INSERT INTO livro VALUES ('Assim que acaba', 'Collen Hoover', 'Romance abusivo','368','2016','Ingles americano');
+INSERT INTO livro VALUES ('Amor e gelato', 'Jenna Evans Welch', 'Romance','320','2017','Ingles americano');
+INSERT INTO livro VALUES ('Vergonha','Brittainy C. Cherry', 'Romance','420','2019','Ingles americano');
+
+-- fetch some values
+SELECT * FROM livro WHERE nome = 'Imperfeitos';
